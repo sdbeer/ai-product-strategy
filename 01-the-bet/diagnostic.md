@@ -3,24 +3,27 @@
 ## Product
 <!-- Name the product you're diagnosing. Real product at your company — not a hypothetical. -->
 
-**Product:**
-**Your Role:**
+
+**Product: AI Personal Debt Manager**
+**Your Role: PM**
 
 ---
 
 ## Scores
 
-### Contextual Moat — __/5
+### Contextual Moat — _4_/5
 *Workflow depth × switching cost. Would users leave in a weekend if a competitor showed up?*
 
 **Score rationale:**
+The application serves as a centralized debt database, handling the full lifecycle of debt management from uploading, analyzing, and generating plans to tracking progress and adjusting plans.
 
 **Named attacker (from partner challenge):**
 
 ---
 
-### Data Advantage — __/5
+### Data Advantage — _4_/5
 *Proprietary signal that compounds with usage. What do you see that OpenAI doesn't?*
+Personal data, debt data, AI generated plan, milestone & progress tracking. Hard to swith.
 
 **Score rationale:**
 
