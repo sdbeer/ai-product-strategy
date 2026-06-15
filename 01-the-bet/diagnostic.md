@@ -4,7 +4,7 @@
 <!-- Name the product you're diagnosing. Real product at your company — not a hypothetical. -->
 
 
-**Product: AI Personal Debt Manager**
+**Product: ClearNee (AI Personal Debt Manager)**
 **Your Role: PM**
 
 ---
