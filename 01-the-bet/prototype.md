@@ -2,7 +2,7 @@
 
 ## What I Built
 <!-- One sentence: what does this prototype demonstrate? -->
-This prototype demonstrates an AI financial agent that analyzes your debts, generates optimized payoff strategies, and autonomously executes actions like refinancing to save you money and clear debt faster.
+This prototype demonstrates an AI copilot for Thai debtors that aggregates multi-creditor debts, generates localized avalanche-style payoff strategies with refinance recommendations, and provides a mock payment hub (instant pay, schedule, settings) — all in a ChatGPT-inspired, responsive SaaS UI with light/dark mode.
 
 ## Tool Used
 <!-- v0 / Cursor / Lovable / other -->
@@ -10,16 +10,16 @@ Lovable
 
 ## Prototype Link
 <!-- Paste the shareable URL -->
-https://clearnee-debt-hero.lovable.app
+https://clearnee-copilot.lovable.app
 
 ## AI Value Archetype
 <!-- Automator / Copilot / Oracle / Creator / Orchestrator -->
-Agent
+Copilot
 
 ## The Bet in One Sentence
 <!-- What you're building, for whom, why now -->
-ClearNee is an autonomous AI financial operator agent built for individuals with multi-creditor debt, launching now to combat the surge in household debt and NPLs through automated, local gateway payment execution and bank settlement routing.
+We are building ClearNee, an AI-native personal debt manager for overwhelmed Thai multi-creditor debtors that automates fragmented financial data ingestion and execution, because skyrocketing household NPLs coupled with a total lack of Open Banking infrastructure create a critical window for a hyper-local, workflow-driven financial savior.
 
 ## Kill Criteria
 <!-- When would you stop? What evidence would kill this bet? -->
-We would stop if onboarding churn were over 75%. The evidence: over 75% of users drop off during onboarding when prompted to hook up their live banking credentials or upload financial contracts via the OCR scanner.
+We will kill the project if onboarding drop-off during the manual OCR contract upload phase exceeds 80% within the first 1,000 sign-ups, proving that the user's financial pain is insufficient to overcome the friction of fragmented data ingestion.
