@@ -15,7 +15,7 @@
 *Workflow depth × switching cost. Would users leave in a weekend if a competitor showed up?*
 
 **Score rationale:**
-Because Open Banking is not ready, users must manually upload and OCR-scan their debt contracts. While this high initial friction creates a "sunk cost" that increases switching costs once completed, the overall workflow depth is low. It functions primarily as an advisory dashboard rather than a deeply integrated utility.
+Because open banking is unavailable, users must manually upload contracts via OCR. This high initial friction actually creates an accidental switching cost—once a user invests the time to scan all their debt documents, they are unlikely to repeat that tedious setup process on a competitor's app.
 
 **Named attacker (from partner challenge):**
 
@@ -25,7 +25,7 @@ Because Open Banking is not ready, users must manually upload and OCR-scan their
 *Proprietary signal that compounds with usage. What do you see that OpenAI doesn't?*
 
 **Score rationale:**
-ClearNee relies on user-submitted OCR documents and scraped public interest rates. OpenAI or any generic LLM wrapper can process these exact same documents and public data. Without direct bank feeds, ClearNee lacks a compounding, proprietary data advantage in its early stages.
+While we collect proprietary user debt data via OCR , the AI logic relies heavily on publicly available data scraped from websites (interest rates, government programs). OpenAI or any competitor can easily access these public data sources. Our data flywheel only triggers if user-submitted data significantly optimizes repayment algorithms over time.
 
 **Named attacker (from partner challenge):**
 
@@ -35,7 +35,7 @@ ClearNee relies on user-submitted OCR documents and scraped public interest rate
 *Encroachment risk × pivot speed. If Apple/Google/OpenAI ships your hero feature native — then what?*
 
 **Score rationale:**
-Big Tech (Apple/Google) is unlikely to launch localized Thai debt-refinancing tools natively. However, the risk is high from local platforms: if major Thai commercial banks (who already own the user's financial data) launch native AI debt-advisors, ClearNee’s core feature could be instantly eclipsed.
+An LLM like ChatGPT can already analyze a debt contract PDF and output a basic repayment strategy if prompted. However, the foundational models lack localized transaction capabilities (ThaiQR, direct debit)  and deep local regulatory context, giving ClearNee a protective layer of hyper-local execution.
 
 
 **Named attacker (from partner challenge):**
@@ -44,7 +44,7 @@ Big Tech (Apple/Google) is unlikely to launch localized Thai debt-refinancing to
 
 ## Top Vulnerability
 <!-- One line: what's the single biggest strategic risk? -->
-Relying entirely on manual user uploads (due to lack of Open Banking) creates massive onboarding friction while offering zero proprietary data advantage against traditional banks that decide to build AI features.
+The manual OCR-onboarding friction creates a massive growth bottleneck, while the core AI advisory logic is highly vulnerable to being replicated by commoditized foundational LLMs
 
 ## Confidence Level
 <!-- H / M / L — how confident are you in this bet after the diagnostic? -->
