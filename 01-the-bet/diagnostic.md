@@ -4,38 +4,38 @@
 <!-- Name the product you're diagnosing. Real product at your company — not a hypothetical. -->
 
 
-**Product: ClearNee (AI Personal Debt Manager)**
-**Your Role: PM**
+**Product: ClearNee — AI Personal Debt Manager**
+**Your Role: AI Product Manager**
 
 ---
 
 ## Scores
 
-### Contextual Moat — _4_/5
+### Contextual Moat — _3_/5
 *Workflow depth × switching cost. Would users leave in a weekend if a competitor showed up?*
 
 **Score rationale:**
-The application automates the full lifecycle. It initiates refinancing applications with local Thai banks, executes payday smart routing according to the optimized debt-clearing strategies, and routes transactions via local gateways. The switching cost is not just historical data. It is the immense operational friction a user faces when disconnecting a live system that actively manages, saves, and optimizes their actual money.
+Because Open Banking is not ready, users must manually upload and OCR-scan their debt contracts. While this high initial friction creates a "sunk cost" that increases switching costs once completed, the overall workflow depth is low. It functions primarily as an advisory dashboard rather than a deeply integrated utility.
 
 **Named attacker (from partner challenge):**
 
 ---
 
-### Data Advantage — _4_/5
+### Data Advantage — _2_/5
 *Proprietary signal that compounds with usage. What do you see that OpenAI doesn't?*
 
 **Score rationale:**
-The product tracks anonymous, non-public settlement negotiation success rates and concession behaviors with specific local Thai banks. As more users negotiate debts through the platform, the AI learns exactly which terms individual banks accept under specific conditions, creating a compounding, legally and technically protected data edge.
+ClearNee relies on user-submitted OCR documents and scraped public interest rates. OpenAI or any generic LLM wrapper can process these exact same documents and public data. Without direct bank feeds, ClearNee lacks a compounding, proprietary data advantage in its early stages.
 
 **Named attacker (from partner challenge):**
 
 ---
 
-### Platform Exposure — _4_/5
+### Platform Exposure — _3_/5
 *Encroachment risk × pivot speed. If Apple/Google/OpenAI ships your hero feature native — then what?*
 
 **Score rationale:**
-Our core product features a complex, automated operational loop deeply integrated with localized Thai payment infrastructure, local bank APIs, and proprietary negotiation flywheels. Generic tech platforms cannot easily copy this highly regionalized execution layer, nor do they care to target it.
+Big Tech (Apple/Google) is unlikely to launch localized Thai debt-refinancing tools natively. However, the risk is high from local platforms: if major Thai commercial banks (who already own the user's financial data) launch native AI debt-advisors, ClearNee’s core feature could be instantly eclipsed.
 
 
 **Named attacker (from partner challenge):**
@@ -44,9 +44,8 @@ Our core product features a complex, automated operational loop deeply integrate
 
 ## Top Vulnerability
 <!-- One line: what's the single biggest strategic risk? -->
-Its heavy dependence on local Thai banks and creditors, who could choke the automated workflow by delaying APIs, restricting payment access, or resisting automated settlements.
-
+Relying entirely on manual user uploads (due to lack of Open Banking) creates massive onboarding friction while offering zero proprietary data advantage against traditional banks that decide to build AI features.
 
 ## Confidence Level
 <!-- H / M / L — how confident are you in this bet after the diagnostic? -->
-M
+M (Medium)
