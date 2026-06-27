@@ -41,7 +41,9 @@ ClearNee operates in largely isolated user silos where an individual's debt mana
 Corrections Loop, Domain Context Loop, Network Loop
 **Fix for weakest loop:**
 Corrections Loop Fix: Implement an automated pipeline that anonymizes user OCR corrections and feeds them into a nightly fine-tuning loop, making ClearNee’s proprietary text-extraction engine progressively flawless at reading diverse Thai banking formats.
+
 Domain Context Loop Fix: Partner directly with local debt relief NGOs and financial clinics to integrate non-public case studies, creating a proprietary corpus of historical restructuring approvals that no generic LLM can access.
+
 Network Loop Fix: Aggregating anonymized data from thousands of users with identical creditors allows the AI to calculate collective bargaining leverage, offering banks bulk-restructuring options that lower interest rates for everyone involved.
 
 ---
