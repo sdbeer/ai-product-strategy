@@ -94,3 +94,6 @@ Why this pricing structure fits the buyer and the value delivered: A low $20 bas
 
 **Net margin shift:**
 - $\Delta$ margin %: +42.3% , $\Delta$ gross $: +$11.00 per user/month (Profit jumps from $8.50 to $19.50)
+
+**Narrative**
+In our version 1 baseline, offering an uncapped subscription model left ClearNee’s unit economics heavily exposed to power-user exploitation and token cost inflation. By pivoting to a Capped Hybrid model ($20 base + $1.50 per extra scan), we effectively shield our baseline margins while monetizing heavy usage. Concurrently, implementing our Model Cascading Strategy routes 70% of routine interactions to ultra-cheap, quantized small models, dropping our blended cost per request from $0.20 to $0.04. This transitions ClearNee from a fragile thin wrapper into a highly defensible platform, skyrocketing gross margins to 84.8% and securing venture-scale profitability at a competitive consumer price point.
