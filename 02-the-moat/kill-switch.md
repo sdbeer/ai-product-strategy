@@ -2,7 +2,9 @@
 
 ## CURRENT SETUP
 **Primary provider:** OpenAI
+
 **Integration depth:** Thin wrapper
+
 **Time to switch today:** 3 days
 
 ## STRESS TEST
