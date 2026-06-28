@@ -83,5 +83,14 @@ Why this pricing structure fits the buyer and the value delivered: A low $20 bas
 <!-- Before/After: Old SaaS revenue vs. AI usage revenue for your product -->
 
 **Before (traditional SaaS):**
+- Revenue: $20 / seat
+- COGS: $11.50 (fixed-style assumption based on unmanaged premium routing: $10 AI + $1.50 non-AI)
+- Gross margin: 42.5%
+  
 **After (AI-enabled):**
+- Revenue: $20 base + $1.5/scan x 2 extra scans = $23.00
+- COGS: $3.50 (variable-style optimization via cascade strategy: 50 requests x $0.04 blended cost + $1.50 non-AI)
+- Gross margin: 84.8%
+
 **Net margin shift:**
+- $\Delta$ margin %: +42.3% * $\Delta$ gross $: +$11.00 per user/month (Profit jumps from $8.50 to $19.50)
