@@ -93,4 +93,4 @@ Why this pricing structure fits the buyer and the value delivered: A low $20 bas
 - Gross margin: 84.8%
 
 **Net margin shift:**
-- $\Delta$ margin %: +42.3% * $\Delta$ gross $: +$11.00 per user/month (Profit jumps from $8.50 to $19.50)
+- $\Delta$ margin %: +42.3% , $\Delta$ gross $: +$11.00 per user/month (Profit jumps from $8.50 to $19.50)
