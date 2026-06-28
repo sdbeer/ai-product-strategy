@@ -8,7 +8,7 @@
 
 **Killer:** Auto-generating complex legal refinancing applications and running continuous multi-agent workflows to monitor shifting bank rates
 
-**Killer usage %:** ~20%
+**Killer usage %:** ~10%
 
 **Bundle or add-on:** add-on
 
