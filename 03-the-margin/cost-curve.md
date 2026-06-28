@@ -41,10 +41,17 @@ Evaluate incoming user intents. If a request is a routine chat or dashboard pull
 
 ## Pricing Model
 
-**Current pricing:**
-**Proposed AI pricing:**
-**Model:** seat-based / usage-based / outcome-based / hybrid
+**Pricing Strategy**
+- Strategy posture: Penetrate
+- Pricing model: Hybrid (base + usage)
+- Unit of work metered: contract scans processed
+- Base fee ($/month): 20
+- Price per unit: $1.50
+- Estimated units/user/month: 2
+- Implied revenue/user/month: $23.00
 
+Decision Note
+Why this pricing structure fits the buyer and the value delivered: —
 ## Stress Tests
 
 | Scenario | AI COGS | Margin |
