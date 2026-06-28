@@ -58,21 +58,35 @@ Network Loop Fix: Aggregating anonymized data from thousands of users with ident
 
 ### 1. Platform Encroachment
 **Attacker:**
+Big Tech Foundation Models (e.g., OpenAI, Google).
 **Vector:**
+Native multimodal document processing. Consumers can already upload a PDF or photo of a debt contract directly into ChatGPT or Gemini and prompt it to "create a monthly debt snowball schedule based on current Thai regulations."  As context windows expand and native OCR perfectly parses local languages, ClearNee's basic text extraction and calculation layer become fully commoditized.
 **Time-to-threat:**
+Immediate (0–3 months).
 **% of value at risk:**
+40%.
+While Big Tech instantly wipes out ClearNee's core AI advisory logic, they completely lack localized execution layers like ThaiQR, direct integrations with local banks, and direct debit automations, leaving ClearNee last-mile workflow intact.
 
 ### 2. Vertical Competitor
 **Attacker:**
+Niche FinTech Startups / Local Refinance Brokers (e.g., a startup focused exclusively on Thai Mortgage Refinancing or Auto Loan Restructuring).
 **Vector:**
+Going deep into a single asset class instead of general multi-creditor debt management. This competitor partners deeply with 2–3 major Thai retail banks to get direct API approvals for refinancing applications, bypassing the messy public web scraping that ClearNee relies on.
 **Time-to-threat:**
+6–12 months.
 **% of value at risk:**
+30%.
+They will cleanly peel away ClearNee's highest-value user segments (home and car owners looking to lower massive monthly interest payments) because their conversion rates and direct bank integrations will yield better approval results than a generic advisor.
 
 ### 3. Adjacent Expansion
 **Attacker:**
+Major Thai Retail Banks / Digital Wallets (e.g., KPlus, SCB Easy, or TrueMoney Wallet).
 **Vector:**
+Dropping an "External Debt Optimizer" feature into their existing applications as "one more thing." They already possess a massive distribution advantage (millions of daily active Thai users), high user trust, and direct transaction data. They can easily introduce a feature that allows users to snap photos of competitor bank statements to offer an in-app consolidation loan.
 **Time-to-threat:**
+12–18 months (due to traditional banking legacy cycles and regulatory compliance hurdles).
 **% of value at risk:**
+If an incumbent bank or massive e-wallet builds this, ClearNee's entire value proposition is nearly erased. They solve the onboarding bottleneck instantly because they already hold the user's main wallet, financial data, and payment execution channels.
 
 ---
 
