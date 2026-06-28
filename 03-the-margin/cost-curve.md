@@ -13,7 +13,7 @@
 **Bundle or add-on:** add-on
 
 
-## Cost Model
+## Cost Model (Before)
 - Avg requests/user/month: 50
 - Blended cost/request: $0.2
 - Revenue/user/month: $20
@@ -23,6 +23,13 @@
 - AI COGS/user: $10.00
 - Total COGS/user: $11.50
 - Gross margin: 42.5% ($8.50/user)
+
+## Stress Tests (Before)
+
+| Scenario | AI COGS | Margin |
+|----------|---------|--------|
+| 3x Cost  | $30.00 | -57.5% ($-11.50) |
+| 2x Usage | $20.00 | -7.5% ($-1.50) |
 
 ## Cascading Strategy
 <!-- Cheap model → frontier model routing logic -->
