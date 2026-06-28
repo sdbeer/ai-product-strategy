@@ -11,7 +11,8 @@
 **If pricing doubles:** Gross margins on power users instantly go negative due to high token costs from processing long OCR legal contracts. We must immediately limit daily scans and shift to Google Gemini Flash within 3 days.
 
 **If ToS restricts use case:** OpenAI restricting financial risk apps halts our core logic overnight. We will execute our kill switch, copy-pasting our raw Thai prompts over to Claude or Llama 3 within 48 hours.
-Risk level (from integration): Medium-high risk
+
+**Risk level (from integration):** Medium-high risk
 
 ## THREE ACTIONS
 **This week:** Catalog every direct OpenAI SDK call in our codebase. Isolate prompt text assets from the core code to lay the structural foundation for an internal Abstraction Layer.
