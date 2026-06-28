@@ -60,12 +60,24 @@ Evaluate incoming user intents. If a request is a routine chat or dashboard pull
 Decision Note
 Why this pricing structure fits the buyer and the value delivered: A low $20 base fee eliminates adoption friction for financially stressed debtors while bundling baseline tracking. Charging $1.50 per extra scan directly aligns our pricing with heavy AI inference costs, preventing margin collapse.
 
-## Stress Tests
+## Cost Model (After)
+- Avg requests/user/month: 50
+- Blended cost/request: $0.04
+- Revenue/user/month: $23
+- Non-AI COGS/user/month: $1.5
 
+## New Margin
+- AI COGS/user: $2.00
+- Total COGS/user: $3.50
+- Gross margin: 84.8% ($19.50/user)
+
+## Stress Test (After)
 | Scenario | AI COGS | Margin |
 |----------|---------|--------|
-| 3x Cost  | $30.00 | -57.5% ($-11.50) |
-| 2x Usage | $20.00 | -7.5% ($-1.50) |
+| 3x Cost  | $6.00 | 67.4% ($15.50) |
+| 2x Usage | $4.00 | 76.1% ($17.50) |
+
+
 
 ## Board One-Pager
 <!-- Before/After: Old SaaS revenue vs. AI usage revenue for your product -->
