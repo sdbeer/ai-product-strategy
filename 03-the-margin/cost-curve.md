@@ -1,5 +1,18 @@
 # Cost Curve & Pricing Strategy
 
+## Packaging decision
+
+**Leader:** Centralized debt dashboard and core optimization strategy
+
+**Filler:** Auto-generated repayment reminders and basic text summaries of bank notices
+
+**Killer:** Auto-generating complex legal refinancing applications and running continuous multi-agent workflows to monitor shifting bank rates
+
+**Killer usage %:** ~20%
+
+**Bundle or add-on:** add-on
+
+
 ## Cost Model
 
 | Cost Category | Per-User/Month | Notes |
