@@ -14,15 +14,15 @@
 
 
 ## Cost Model
+- Avg requests/user/month: 50
+- Blended cost/request: $0.2
+- Revenue/user/month: $20
+- Non-AI COGS/user/month: $1.5
 
-| Cost Category | Per-User/Month | Notes |
-|--------------|----------------|-------|
-| Inference (primary model) | | |
-| Inference (cascading/triage) | | |
-| Infrastructure | | |
-| Data/storage | | |
-| Human-in-the-loop | | |
-| **Total AI COGS** | | |
+## Current Margin
+- AI COGS/user: $10.00
+- Total COGS/user: $11.50
+- Gross margin: 42.5% ($8.50/user)
 
 ## Cascading Strategy
 <!-- Cheap model → frontier model routing logic -->
@@ -40,11 +40,10 @@
 
 ## Stress Tests
 
-| Scenario | Impact on Margin | Response |
-|----------|-----------------|----------|
-| Inference costs 3x | | |
-| Heaviest segment doubles | | |
-| Model provider raises prices 50% | | |
+| Scenario | AI COGS | Margin |
+|----------|---------|--------|
+| 3x Cost  | $30.00 | -57.5% ($-11.50) |
+| 2x Usage | $20.00 | -7.5% ($-1.50) |
 
 ## Board One-Pager
 <!-- Before/After: Old SaaS revenue vs. AI usage revenue for your product -->
