@@ -51,7 +51,8 @@ Evaluate incoming user intents. If a request is a routine chat or dashboard pull
 - Implied revenue/user/month: $23.00
 
 Decision Note
-Why this pricing structure fits the buyer and the value delivered: —
+Why this pricing structure fits the buyer and the value delivered: A low $20 base fee eliminates adoption friction for financially stressed debtors while bundling baseline tracking. Charging $1.50 per extra scan directly aligns our pricing with heavy AI inference costs, preventing margin collapse.
+
 ## Stress Tests
 
 | Scenario | AI COGS | Margin |
