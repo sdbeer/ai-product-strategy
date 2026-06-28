@@ -28,9 +28,16 @@
 <!-- Cheap model → frontier model routing logic -->
 
 **Triage model:**
+Small tier model (e.g., Gemini Flash) acts as the gateway router.
+
 **Frontier model:**
+Premium reasoning model (e.g., OpenAI o1 or equivalent).
+
 **Routing rule:**
+Evaluate incoming user intents. If a request is a routine chat or dashboard pull, execute immediately on the Small tier. If it requires cross-institutional debt calculation, cascade to Mid. If it contains a raw multi-page OCR contract payload, cascade to Frontier.
+
 **Expected cascade ratio:**
+90% (Small/Mid) / 10% (Frontier).
 
 ## Pricing Model
 
