@@ -62,5 +62,7 @@ We require $50,000, 2 Engineers, and 1 Part-Time Domain Expert for a 3-month hor
 *Your 3-sentence AI strategy from Module 1 vs. what you'd say now:*
 
 **M1 baseline:**
+We will use AI OCR to instantly transform scanned bank contracts into structured dashboard data. The system then automatically generates customized repayment schedules and pre-filled refinancing forms. This feature automation eliminates manual tracking friction to rapidly scale our subscription revenue.
 
 **Now:**
+ClearNee uses model cascading to ingest unstructured Thai debt contracts into an evidence-backed workflow. User overrides feed a recursive training loop, building a proprietary text-extraction moat against commoditized LLMs. This compounding data asset permanently shields our capped hybrid unit economics.
