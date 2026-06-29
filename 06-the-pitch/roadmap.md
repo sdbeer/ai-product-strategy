@@ -35,21 +35,28 @@
 | **11. Setup 300-Row Golden Dataset Evaluation Matrix** | **Guardrails** | Prompt variations and data extraction volume must be high enough to justify automated test suite maintenance. | M |
 | **13. Configure Automated Prompt Version Rollback** | **Guardrails** | The Golden Dataset evaluation must be production-tested and reliably deterministic first. | L |
 | **14. Build Automated Web Scraper for Thai Bank Rates** | **Guardrails** | Core onboarding and advisory loops must be stable before introducing dynamic, real-time macro variables. | L |
+
+
 ## Board Pitch
 
 **Thesis (1 sentence):**
+ClearNee captures the surging Thai debt advisory market by using an automated document-processing workflow to bypass the country's lack of Open Banking, turning fragmented loan contracts into optimized repayment roadmaps.
 
 **The case:**
-1. Why now:
-2. What's defensible:
-3. The economics:
+1. Why now: Thai household NPLs are skyrocketing in Q3 2026, creating urgent consumer demand, while the complete absence of Open Banking infrastructure means an AI-native OCR workflow is the only viable way to aggregate loan data at scale.
+2. What's defensible: Our moat is a proprietary Corrections Loop that automatically feeds anonymized user OCR line-item overrides into a nightly fine-tuning cycle, making our localized Thai contract text-extraction engine progressively harder for generic foundational models to replicate.
+3. The economics: Net margin shifts by +42.3%, jumping profit from $8.50 to $19.50 per user/month, achieved by a 90/10 model cascade that routes simple traffic to Gemini Flash and a $1.50 paywall gate to cap outlier power users.
 
 **The risks:**
-1. Trust / failure modes:
-2. Scale / governance:
-3. Competitive:
+1. Trust / failure modes: Misreading a complex Thai legal contract interest rate could subject distressed users to incorrect financial liabilities; we mitigate this by enforcing a mandatory human-in-the-loop validation trigger for any document ingestion confidence score below 92%.
+2. Scale / governance: At 10x scale, localized human validation operational costs could breach our $5/user ceiling and trigger Thai PDPA data handling liabilities; we govern this via weekly 300-row Golden Dataset benchmark evaluations to stop model drift.
+3. Competitive: The core advisory logic is highly vulnerable to foundational model commoditization; we will kill the project if onboarding drop-off during the manual OCR upload phase exceeds 80% within the first 1,000 sign-ups, proving the friction outweighs the value.
 
 **The ask:**
+We require $50,000, 2 Engineers, and 1 Part-Time Domain Expert for a 3-month horizon to ship the data ingestion layer and validate the unit economics, which requires pausing the Horizon 3 automated rate-scraper exploration.
+
+
+
 
 ## M1 Baseline vs. Now
 *Your 3-sentence AI strategy from Module 1 vs. what you'd say now:*
