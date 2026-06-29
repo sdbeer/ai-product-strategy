@@ -1,6 +1,6 @@
 # Ai Product Strategy
 
-> We are building ClearNee, an AI-native personal debt manager for overwhelmed Thai multi-creditor debtors that automates fragmented financial data ingestion and execution, because skyrocketing household NPLs coupled with a total lack of Open Banking infrastructure create a critical window for a hyper-local, workflow-driven financial savior.
+> We are building ClearNee, an AI-native personal debt manager for overwhelmed Thai multi-creditor debtors that automates fragmented financial data ingestion and execution, because skyrocketing household NPLs coupled with a total lack of Open Banking infrastructure create a critica…
 
 ---
 
@@ -99,11 +99,11 @@
 
 **How you get this funded, shipped, and adopted.**
 
-- **Horizon 1 (Now):**
-- **Horizon 2 (Next):**
-- **Horizon 3 (Bet):**
-- **Board Narrative:** **The case:**
-- **Ask:** ## M1 Baseline vs. Now
+- **Horizon 1 (Now):** **5. Integrate Third-Party OCR API** · **7. Implement Basic OpenAI API Integration** · **10. Deploy Localized ThaiQR Payment rails** · **1. Data Ingestion Layer (OCR)**
+- **Horizon 2 (Next):** **3. Confidence UX & Control Surfaces** · **6. Build Split-Screen Interactive Override Panel** · **8. Architect Model Cascading Router** · **9. Design 'Capped Hybrid' Plan Gate** · **12. Create Emergency Human Validation Queue** · **2. Advisory Engine & Cost Curve Optimization**
+- **Horizon 3 (Bet):** **4. Governance & Operational Infrastructure** · **11. Setup 300-Row Golden Dataset Evaluation Matrix** · **13. Configure Automated Prompt Version Rollback** · **14. Build Automated Web Scraper for Thai Bank Rates**
+- **Board Narrative:** ClearNee captures the surging Thai debt advisory market by using an automated document-processing workflow to bypass the country's lack of Open Banking, turning fragmented loan contracts into optimized repayment roadmaps.
+- **Ask:** We require $50,000, 2 Engineers, and 1 Part-Time Domain Expert for a 3-month horizon to ship the data ingestion layer and validate the unit economics, which requires pausing the Horizon 3 automated rate-scraper exploration.
 - **Key Strategic Change:**
 
 → Details: [`06-the-pitch/`](06-the-pitch/)
