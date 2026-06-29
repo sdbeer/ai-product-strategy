@@ -49,13 +49,18 @@ Every extracted contract parameter features direct "Edit Field" overrides and "S
 
 | Metric | Target | Measurement | Alert Threshold |
 |--------|--------|-------------|-----------------|
-| Accuracy | | | |
-| Hallucination rate | | | |
-| Latency (p95) | | | |
-| Drift velocity | | | |
+| Accuracy | 95% | Weekly evaluation on 300 golden rows: Deterministic code/Rule-based Judges for extraction fields (principal/rates); LLM-as-Judge (GPT-4o) with accuracy rubric for qualitative strategy checks. | <92% → route to human review queue |
+| Hallucination rate | <1% | Same weekly 300 golden row run: LLM-as-Judge (GPT-4o) safety rubric flags any ungrounded financial assertions, fabricated interest rates, or invented legal restructuring policies. | >2% → auto-rollback to last good model |
+| Latency (p95) | <800ms | Continuous prod monitoring via Datadog. Split alerts: p95 <800ms for routine conversational chat/dashboard queries; p95 <15s for complex document OCR contract extraction workflows. | >1200ms for 5min → page on-call |
+| Drift velocity | <2% Semantic Variance / Score Regression per quarter | Monthly regression testing using our 300-row version-controlled Golden Dataset; continuous production logging via Datadog to monitor prompt-to-output semantic distance metrics. | >3% Regression on Golden Dataset → auto-rollback to last good model |
 
 ## HITL Architecture
 <!-- When does a human step in? What's the escalation path? -->
+**Trigger:** Confidence <92% OR safety rubric flag fires on a customer-facing output.
+
+**Reviewer:** Dedicated Thai Financial & Legal Compliance Specialists (9-6 ICT / Bangkok).
+
+**Feedback loop:** Reviewer corrections feed back into the weekly gold-set audit. 5+ corrections triggers a prompt/router optimization run.
 
 ## Red-Team Findings
 *What failure mode did your partner find that you missed?*
