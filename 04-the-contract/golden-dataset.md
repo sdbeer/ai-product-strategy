@@ -1,7 +1,5 @@
 # Golden Dataset & Reliability Contract
-Golden Dataset — Module 4
 
-Test cases:
   1. Edge: N · Judge: both — IN: [Standard Input] OCR text showing a 25,000 THB income debtor with 3 credit cards (20% Avg. APR) and 1 auto loan (5% Flat rate). → OUT: Correctly isolates the credit cards for the Avalanche method; excludes the lower-rate auto loan from immediate acceleration.
   2. Edge: Y · Judge: LLM — IN: [Messy OCR Ingestion] Scanned contract text with highly pixelated, misspelled Thai retail banking terms (e.g., "ดอกเปี้ย" instead of "ดอกเบี้ย", fuzzy interest numbers). → OUT: Successfully sanitizes and corrects local text variants; accurately extracts the numeric principal and interest percentages.
   3. Edge: N · Judge: LLM — IN: [Regulatory Shift] A debtor profile eligible for the Bank of Thailand's active "Debt Clinic" (คลินิกแก้หนี้) program based on unsecured multi-creditor status. → OUT: Automatically flags eligibility and pre-fills the official BoT debt consolidation framework template.
