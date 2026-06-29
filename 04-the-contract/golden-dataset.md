@@ -19,14 +19,6 @@ Dataset health
 - Judge mix: 20% rule / 60% LLM / 20% both
 
 
-| # | Input | Expected Output | Edge Case? | Judge Type |
-|---|-------|----------------|-----------|-----------|
-| 1 | | | Y/N | rule / LLM |
-| 2 | | | Y/N | rule / LLM |
-| 3 | | | Y/N | rule / LLM |
-| 4 | | | Y/N | rule / LLM |
-| 5 | | | Y/N | rule / LLM |
-
 **Adversarial rows included:** _3_
 **Coverage gaps identified by partner:**
 
