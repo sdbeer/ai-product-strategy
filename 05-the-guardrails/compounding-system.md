@@ -51,16 +51,41 @@ Market Intelligence Scraper — can continuously scrape public Thai retail bank 
 Debt Optimization Strategist — can calculate multi-creditor repayment roadmaps and auto-generate structured bank refinancing file formats; cannot execute transactional mobile banking deep-links or independently authorize real fund transfers. Approval: Dedicated Thai Financial Specialist.
 
 
-
-
 ## Shadow AI Audit
 
-| Tool | Owner | Risk Level | Decision |
-|------|-------|-----------|----------|
-| | | H / M / L | keep / govern / kill |
-| | | H / M / L | keep / govern / kill |
-| | | H / M / L | keep / govern / kill |
+## Discover — User-Side Workarounds
+- Users copy-paste unreadable or confusing sections of messy, OCR-parsed Thai text into ChatGPT/Gemini web interfaces to ask, "What does this line item mean?" before manually editing it in ClearNee. | source: Support ticket | signal: Workflow gap | freq: H | spend: $20/mo | decision: Build
+- High-anxiety power users cross-verify ClearNee's generated Avalanche repayment interest savings by dumping the raw figures into Claude to double-check the mathematical logic. | source: Forum/Reddit | signal: Trust gap | freq: M | spend: $20/mo | decision: Partner
+- Users feed ClearNee's calculated debt optimization summaries into external AI writing tools to draft custom hardship letters or formal refinance requests to specific retail banks like SCB or Kasikornbank. | source: User interview | signal: Capability gap | freq: L | spend: $20/mo | decision: Build
 
-**Total tools found:**
-**Tools after triage:**
-**Estimated hidden spend:**
+## Pattern Assessment
+- Workarounds found: 3
+- Build candidates: 2
+- Partner candidates: 1
+- Ignore decisions: 0
+- Adjacent spend: $60/mo
+- Dominant signal: Workflow gap
+
+## Action Plan
+### Build
+Absorb blurry Thai contract OCR text-sanitization and bank hardship letter autogeneration into native split-screen override screens and premium Add-On Packs ($1.50/extra scan).
+Sequencing: Phase 1 isolates prompts; Phase 2 deploys an explanatory Evidence Panel; Phase 3 launches the premium document drafting engine.
+
+### Partner
+Securely partner via a server-side Multi-Provider Routing Layer.
+When generating Avalanche schedules, an anonymized JSON payload automatically queries both OpenAI and Claude/Gemini. A native UI badge displays a verification confirmation to satisfy user financial trust gaps.
+
+### Ignore + Monitor
+Ignore advanced productivity suite integrations (Zapier/Make webhooks). ClearNee v.1 is a focused B2C consumer mobile app ; building native enterprise connections introduces operational feature creep that dilutes our local financial advisory moat.
+Re-evaluate this hands-off posture only if tracking logs show more than 15% of our active fleet explicitly queries for public API access tokens.
+
+## Roadmap Brief
+Based on your audit: 3 user-side workarounds discovered.
+Decisions: 2 build · 1 partner · 0 ignore · 0 TBD.
+Estimated adjacent spend: $60/mo across surveyed users.
+Dominant signal: Workflow gap.
+
+Recommended next step: Workflow gaps dominate — your users are stitching your product into multi-step pipelines. Strongest near-term move is partner integrations with the AI tools they already chain in.
+
+Sequence the Build column by frequency × strategic relevance. Confirm Partner candidates with the external tools' partnership teams. Re-run this audit each quarter — workarounds shift fast.
+
