@@ -24,13 +24,26 @@ Dataset health
 
 ## Confidence UX Design
 
-**Approach:** show uncertainty / tiered confidence / human-in-loop trigger
+**Approach:** Tiered confidence with a source evidence panel for scanned contracts, paired with a mandatory human-in-the-loop validation trigger before final document submission.
 
-**High confidence (>90%):**
-**Medium confidence (70-90%):**
-**Low confidence (<70%):**
+**Confident (>90%):** What the UI shows: Complete dashboard mapping principal, rates, and exact contract source clauses. Clear buttons to approve or edit.
+What the AI is allowed to say: "Based on your Siam Commercial Bank contract, your interest rate is 16%. We recommend the Avalanche method."
 
-**User control surface:**
+**Uncertain (50-90%):** What the UI shows: Cautionary yellow frame highlighting blurry fields. Prominent "Verify & Confirm" data entry prompt to resolve ambiguities.
+What the AI is allowed to say: "We detected a Kasikornbank loan, but the maturity date is unclear. Please confirm if it's fixed or floating."
+
+**Not confident (<50%):** What the UI shows: Automation blocked with a processing error message. Prompts to re-take the photo or route to an expert.
+What the AI is allowed to say: "We could not read this contract due to low quality. Please re-upload or contact support to protect security."
+
+**User control surface:** 
+
+Every extracted contract parameter features direct "Edit Field" overrides and "Source Match" indicators. Manual modifications bypass the automated workflow layer, log errors, and actively feed the nightly fine-tuning dataset loop.
+
+- Users see AI reasoning / drivers
+- Users correct & override outputs
+- Corrections feed back into the model / dataset
+- Users adjust the confidence threshold _(not yet)_
+
 
 ## Reliability Contract
 
