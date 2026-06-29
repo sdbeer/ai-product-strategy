@@ -1,6 +1,6 @@
 # Ai Product Strategy
 
-> We are building ClearNee, an AI-native personal debt manager for overwhelmed Thai multi-creditor debtors that automates fragmented financial data ingestion and execution, because skyrocketing household NPLs coupled with a total lack of Open Banking infrastructure create a critica…
+> We are building ClearNee, an AI-native personal debt manager for overwhelmed Thai multi-creditor debtors that automates fragmented financial data ingestion and execution, because skyrocketing household NPLs coupled with a total lack of Open Banking infrastructure create a critical window for a hyper-local, workflow-driven financial savior.
 
 ---
 
