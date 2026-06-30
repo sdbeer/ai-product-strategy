@@ -59,13 +59,15 @@ Network Loop Fix: Aggregating anonymized data from thousands of users with ident
 ### 1. Platform Encroachment
 **Attacker:**
 Big Tech Foundation Models (e.g., OpenAI, Google).
+
 **Vector:**
 Native multimodal document processing. Consumers can already upload a PDF or photo of a debt contract directly into ChatGPT or Gemini and prompt it to "create a monthly debt snowball schedule based on current Thai regulations."  As context windows expand and native OCR perfectly parses local languages, ClearNee's basic text extraction and calculation layer become fully commoditized.
+
 **Time-to-threat:**
 Immediate (0–3 months).
+
 **% of value at risk:**
-40%.
-While Big Tech instantly wipes out ClearNee's core AI advisory logic, they completely lack localized execution layers like ThaiQR, direct integrations with local banks, and direct debit automations, leaving ClearNee last-mile workflow intact.
+40%. While Big Tech instantly wipes out ClearNee's core AI advisory logic, they completely lack localized execution layers like ThaiQR, direct integrations with local banks, and direct debit automations, leaving ClearNee last-mile workflow intact.
 
 ### 2. Vertical Competitor
 **Attacker:**
