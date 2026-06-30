@@ -20,11 +20,21 @@
 
 ## Governance Policy
 
-**Scope:** Automated Document Ingestion: The data privacy, extraction fairness, and reliability constraints of the multi-page Thai legal contract OCR scanning and text-parsing engine.
+**Scope:** 
+Automated Document Ingestion: The data privacy, extraction fairness, and reliability constraints of the multi-page Thai legal contract OCR scanning and text-parsing engine.
+
 Advisory Core Reasoning: Guardrails governing the generative outputs of AI-native debt optimization advisor, specifically relating to repayment schedules (Avalanche vs. Snowball), local Thai financial regulation compliance, and government debt-relief matching.
+
 Automated Document Drafting: The security and validation frameworks for auto-generated legal refinancing files and bank applications.
-User Communication Layer: Direct text outputs regarding automated dashboard insights, conversational financial chat answers, and proactive repayment alerts or reminders. Excludes: Traditional Transaction Infrastructure: Traditional localized transaction execution, merchant-side processing, and payment rails (e.g., ThaiQR, mobile banking deep-linking, or PSP direct debits), which are governed under separate standard financial security and compliance frameworks.
+
+User Communication Layer: Direct text outputs regarding automated dashboard insights, conversational financial chat answers, and proactive repayment alerts or reminders. 
+
+Excludes: 
+
+Traditional Transaction Infrastructure: Traditional localized transaction execution, merchant-side processing, and payment rails (e.g., ThaiQR, mobile banking deep-linking, or PSP direct debits), which are governed under separate standard financial security and compliance frameworks.
+
 Static External Web Scrapers: The basic software code scripts used to pull public bank interest rates and program updates from external websites (separate data-harvesting policies apply).
+
 Internal Analytics Dashboards: Static, non-AI business intelligence views used by the internal team to monitor general corporate metrics (e.g., user sign-ups or billing status).
 
 **Autonomy boundaries:** Sending routine repayment reminders & interest rate shift alerts — auto. Formulating optimized repayment schedules (Avalanche vs. Snowball roadmaps) — human approval required. Drafting formal bank refinancing and debt consolidation applications — human approval required. Setting up direct banking deep-links or executing ThaiQR money transfers — never auto.
