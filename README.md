@@ -24,7 +24,7 @@
 
 - **Product:** ClearNee — AI Personal Debt Manager
 - **AI Value Archetype:** Copilot
-- **Vulnerability Scores:** _(add: Moat 3/5 · Data 2/5 · Platform 3/5)_
+- **Vulnerability Scores:** Moat 3/5 · Data 2/5 · Platform 3/5
 - **Top Risk:** The manual OCR-onboarding friction creates a massive growth bottleneck, while the core AI advisory logic is highly vulnerable to being replicated by commoditized foundational LLMs
 - **Confidence:** M
 - **Prototype:** https://clearnee-copilot.lovable.app
@@ -42,7 +42,7 @@
 - **Weakest Loop:** Corrections Loop, Domain Context Loop, Network Loop
 - **Top Encroachment Threat:** Big Tech Foundation Models (e.g., OpenAI, Google).
 - **Encroachment Defense:** Corrections Loop Fix: Implement an automated pipeline that anonymizes user OCR corrections and feeds them into a nightly fine-tuning loop, making ClearNee’s proprietary text-extraction engine progress…
-- **Vendor Portability:** _(add: Ready / Partial / Locked)_
+- **Vendor Portability:**  Ready 
 
 → Details: [`02-the-moat/`](02-the-moat/)
 
