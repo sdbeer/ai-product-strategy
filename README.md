@@ -73,7 +73,7 @@
 - **Golden Dataset:** ClearNee's 10-row golden dataset evaluates standard financial profiles, messy Thai banking text variants, high-risk informal loans, and adversarial exploits using a blend of deterministic rules and semantic LLM judges to ensure that backend system or prompt modifications do not break operational calculations or bypass safety guards.
 - **Confidence UX:** Tiered confidence with a source evidence panel for scanned contracts, paired with a mandatory human-in-the-loop validation trigger before final document submission.
 - **HITL Architecture:** **Trigger:** Confidence <92% OR safety rubric flag fires on a customer-facing output.
-- **Failure Mode Coverage:** *What failure mode did your partner find that you missed?*
+- **Failure Mode Coverage:** *What failure mode did your partner find that you missed?* -
 
 → Details: [`04-the-contract/`](04-the-contract/)
 
