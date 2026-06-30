@@ -52,11 +52,11 @@
 
 **Will this make money or bleed it?**
 
-- **Gross Margin (current):**
-- **Gross Margin (AI-adjusted):**
-- **Pricing Model:**
-- **Pricing Today → Tomorrow:**
-- **Total AI COGS / unit:**
+- **Gross Margin (current):** 42.5% ($8.50/user)
+- **Gross Margin (AI-adjusted):** 84.8% ($19.50/user)
+- **Pricing Model:** Hybrid (base + usage)
+- **Pricing Today → Tomorrow:** $20/user/month → $20 base + $1.50 per extra scan = ~$23/user/month
+- **Total AI COGS / unit:** $2.00/user
 - **Cascading Strategy:** Triage: Small tier model (e.g., Gemini Flash) acts as the gateway router.; frontier: Premium reasoning model (e.g., OpenAI o1 or equivalent).; ratio 90% (Small/Mid) / 10% (Frontier).
 - **Net Margin Shift:** - $\Delta$ margin %: +42.3% , $\Delta$ gross $: +$11.00 per user/month (Profit jumps from $8.50 to $19.50)
 - **Break-even at:**
