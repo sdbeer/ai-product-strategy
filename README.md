@@ -105,6 +105,6 @@
 - **Horizon 3 (Bet):** **4. Governance & Operational Infrastructure** · **11. Setup 300-Row Golden Dataset Evaluation Matrix** · **13. Configure Automated Prompt Version Rollback** · **14. Build Automated Web Scraper for Thai Bank Rates**
 - **Board Narrative:** ClearNee captures the surging Thai debt advisory market by using an automated document-processing workflow to bypass the country's lack of Open Banking, turning fragmented loan contracts into optimized repayment roadmaps.
 - **Ask:** We require $50,000, 2 Engineers, and 1 Part-Time Domain Expert for a 3-month horizon to ship the data ingestion layer and validate the unit economics, which requires pausing the Horizon 3 automated rate-scraper exploration.
-- **Key Strategic Change:**
+- **Key Strategic Change:** ClearNee evolves from a traditional SaaS automation wrapper into an AI-native platform by implementing model cascading and recursive learning loops , transforming user overrides into a defensible data moat that secures capped hybrid economics.
 
 → Details: [`06-the-pitch/`](06-the-pitch/)
