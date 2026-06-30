@@ -41,7 +41,7 @@
 - **Data Flywheel Score:** 9/20 
 - **Weakest Loop:** Corrections Loop, Domain Context Loop, Network Loop
 - **Top Encroachment Threat:** Big Tech Foundation Models (e.g., OpenAI, Google).
-- **Encroachment Defense:** Corrections Loop Fix: Implement an automated pipeline that anonymizes user OCR corrections and feeds them into a nightly fine-tuning loop, making ClearNee’s proprietary text-extraction engine progress…
+- **Encroachment Defense:** Corrections Loop Fix: Implement an automated pipeline that anonymizes user OCR corrections and feeds them into a nightly fine-tuning loop, making ClearNee’s proprietary text-extraction engine progressively flawless at reading diverse Thai banking formats.
 - **Vendor Portability:**  Ready 
 
 → Details: [`02-the-moat/`](02-the-moat/)
