@@ -59,7 +59,7 @@
 - **Total AI COGS / unit:** $2.00/user
 - **Cascading Strategy:** Triage: Small tier model (e.g., Gemini Flash) acts as the gateway router.; frontier: Premium reasoning model (e.g., OpenAI o1 or equivalent).; ratio 90% (Small/Mid) / 10% (Frontier).
 - **Net Margin Shift:** - $\Delta$ margin %: +42.3% , $\Delta$ gross $: +$11.00 per user/month (Profit jumps from $8.50 to $19.50)
-- **Break-even at:**
+- **Break-even at:** 2,565 Users
 
 → Details: [`03-the-margin/`](03-the-margin/)
 
@@ -70,7 +70,7 @@
 **Why users will trust a probabilistic system.**
 
 - **Reliability Target:** 95%
-- **Golden Dataset:**
+- **Golden Dataset:** ClearNee's 10-row golden dataset evaluates standard financial profiles, messy Thai banking text variants, high-risk informal loans, and adversarial exploits using a blend of deterministic rules and semantic LLM judges to ensure that backend system or prompt modifications do not break operational calculations or bypass safety guards.
 - **Confidence UX:** Tiered confidence with a source evidence panel for scanned contracts, paired with a mandatory human-in-the-loop validation trigger before final document submission.
 - **HITL Architecture:** **Trigger:** Confidence <92% OR safety rubric flag fires on a customer-facing output.
 - **Failure Mode Coverage:** *What failure mode did your partner find that you missed?*
